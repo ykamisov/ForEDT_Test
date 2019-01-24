@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="91b29e62-555f-4854-ac3b-2f0ba6c6ea2a">
+  <producedTypes>
+    <objectType typeId="66bcc645-9749-4e37-86fb-56650ba2b04d" valueTypeId="6d6dd52a-c20a-4d7f-bed7-e1327eb0257c"/>
+    <refType typeId="fe48a49c-5549-4daa-82e5-705694c35432" valueTypeId="2ace8360-403b-40b0-ad31-0ed958e31d1b"/>
+    <selectionType typeId="3d4f24b3-d62a-484d-bb3c-a07d1ac8f5e9" valueTypeId="6f5768d1-724e-4521-a002-ee2632f539d7"/>
+    <listType typeId="4b412eed-313a-42d0-aa64-cc60714ebbfe" valueTypeId="68c6c3a8-6070-491a-8655-ca3aa43d31c6"/>
+    <managerType typeId="acbb1ce7-808a-406c-9233-6d4087dddf39" valueTypeId="90c6d1e2-02ef-4d2e-bbf8-f4cd4e910872"/>
+  </producedTypes>
+  <name>Сотрудники</name>
+  <synonym>
+    <key>en</key>
+    <value>Сотрудники</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Сотрудники.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Сотрудники.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <synonym>
+      <key>en</key>
+      <value>ФИО</value>
+    </synonym>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Сотрудники.Form.ItemForm</defaultObjectForm>
+  <attributes uuid="1ef99359-2b40-4da1-8cd5-918336c81b29">
+    <name>ДатаРождения</name>
+    <synonym>
+      <key>en</key>
+      <value>Дата рождения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="2e562d92-9db5-4ff4-9208-e72ea3d41fb6">
+    <name>ItemForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Item form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>
